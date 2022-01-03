@@ -9,12 +9,12 @@ jobs:
     name: Run Tests
     runs-on: ubuntu-latest
 
-  steps:
-    - name: List Directory
-      run: |
-        ls
-        cd app
-        cd build
-        cd reports
-        cd androidTests
-        cd connected
+    steps:
+      - name: List Directory
+        run: |
+          ls
+          cd app
+          cd build
+          cd reports
+          cd androidTests
+          cd connected

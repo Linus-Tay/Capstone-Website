@@ -12,19 +12,7 @@ jobs:
     steps:
       - name: Checkout Current Repository
         uses: actions/checkout@v2
-<<<<<<< HEAD
 
       - name: List Directory
         run: |
           ls
-=======
-        
-      - name: List Directory
-        run: |
-          ls
-          cd app
-          cd build
-          cd reports
-          cd androidTests
-          cd connected
->>>>>>> parent of 3493edb (Update from https://github.com/Capstone-Grading-Made-Simple/Weekly_Exercise-2/commit/3cad58c6a63356136cc23d07fd11b739b25a18f8)

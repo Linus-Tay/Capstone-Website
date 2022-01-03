@@ -1,4 +1,4 @@
-name: Weekly Exercise 2 Test
+name: Storing Data
 
 on:
   push:
@@ -16,3 +16,4 @@ jobs:
       - name: List Directory
         run: |
           ls
+
